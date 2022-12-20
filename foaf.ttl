@@ -1,0 +1,32 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Matej Djajkov" ;
+  foaf:title "Matej's FOAF profile" ;
+  foaf:givenname "Matej" ;
+  foaf:family_name "Djajkov" ;
+  foaf:nick "Dzale" ;
+  foaf:mbox_sha1sum "818691f827abbfb80758b9a248bdbef9f7742905" ;
+  foaf:workplaceHomepage <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/Student> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "EmilijanKoteski" ;
+    foaf:mbox_sha1sum "340295c3802ab175cbd1e09325d4c1d667b464d4" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl >
+  ], [
+    a foaf:Person ;
+    foaf:name "MatoNikolov" ;
+    foaf:mbox_sha1sum "11a498a22b687837b5686f52c6b72f3801ffb229" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
+  ] .
