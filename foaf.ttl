@@ -2,14 +2,14 @@
 @prefix ns0: <http://webns.net/mvcb/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl>
+<https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/main/foaf.ttl>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl#me> ;
-  foaf:primaryTopic <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl#me> ;
+  foaf:maker <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/main/foaf.ttl#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/foaf.ttl#me>
+<https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/main/foaf.ttl#me>
   a foaf:Person ;
   foaf:name "Matej Djajkov" ;
   foaf:title "Matej's FOAF profile" ;
@@ -17,7 +17,7 @@
   foaf:family_name "Djajkov" ;
   foaf:nick "Dzale" ;
   foaf:mbox_sha1sum "818691f827abbfb80758b9a248bdbef9f7742905" ;
-  foaf:workplaceHomepage <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/master/Student> ;
+  foaf:workplaceHomepage <https://raw.githubusercontent.com/MatejDjajkov/VebBaziraniSistemi/main/Student> ;
   foaf:schoolHomepage <https://finki.ukim.mk/> ;
   foaf:knows [
     a foaf:Person ;
